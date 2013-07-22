@@ -118,7 +118,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<radius>, ["~> 0.7.3"])
       s.add_development_dependency(%q<coffee-script>, ["~> 2.2.0"])
     else
-      s.add_dependency(%q<rack>, ["~> 1.5.2"])
+      s.add_dependency(%q<rack>, ["~> 1.4"])
       s.add_dependency(%q<rack-test>, ["~> 0.6.2"])
       s.add_dependency(%q<tilt>, ["~> 1.3.3"])
       s.add_dependency(%q<activesupport>, ["~> 3.2.12"])
