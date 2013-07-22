@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem 'rack',              '~> 1.4'
 gem 'rack-test',         '~> 0.6.2'
-gem 'tilt',              '~> 1.4'
+gem 'tilt',              '~> 2.0.0.beta1'
 gem 'activesupport',     '~> 3.2.12'
 gem 'tzinfo'
 gem 'i18n'
