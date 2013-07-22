@@ -99,7 +99,7 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<rack>, ["~> 1.5.2"])
       s.add_runtime_dependency(%q<rack-test>, ["~> 0.6.2"])
-      s.add_runtime_dependency(%q<tilt>, ["~> 1.4"])
+      s.add_runtime_dependency(%q<tilt>, ["~> 1.4.1"])
       s.add_runtime_dependency(%q<activesupport>, ["~> 3.2.12"])
       s.add_runtime_dependency(%q<tzinfo>, [">= 0"])
       s.add_runtime_dependency(%q<i18n>, [">= 0"])
@@ -120,7 +120,7 @@ Gem::Specification.new do |s|
     else
       s.add_dependency(%q<rack>, ["~> 1.4"])
       s.add_dependency(%q<rack-test>, ["~> 0.6.2"])
-      s.add_dependency(%q<tilt>, ["~> 1.3.3"])
+      s.add_dependency(%q<tilt>, ["~> 1.4.1"])
       s.add_dependency(%q<activesupport>, ["~> 3.2.12"])
       s.add_dependency(%q<tzinfo>, [">= 0"])
       s.add_dependency(%q<i18n>, [">= 0"])
@@ -142,7 +142,7 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<rack>, ["~> 1.5.2"])
     s.add_dependency(%q<rack-test>, ["~> 0.6.2"])
-    s.add_dependency(%q<tilt>, ["~> 1.3.3"])
+    s.add_dependency(%q<tilt>, ["~> 1.4.1"])
     s.add_dependency(%q<activesupport>, ["~> 3.2.12"])
     s.add_dependency(%q<tzinfo>, [">= 0"])
     s.add_dependency(%q<i18n>, [">= 0"])
