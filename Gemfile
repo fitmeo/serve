@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'rack',              '~> 1.5.2'
+gem 'rack',              '~> 1.4'
 gem 'rack-test',         '~> 0.6.2'
 gem 'tilt',              '~> 1.4'
 gem 'activesupport',     '~> 3.2.12'
